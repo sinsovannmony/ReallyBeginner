@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="validate.php" method="post" target="_self" autocomplete="on">
+		
+		<pre>
+			<fieldset>
+			<legend>Cmpleting Information About You To Submit</legend>
+			User Name: <input type="text" name="Mengheang" placeholder="User Name">
+			Password:  <input type="Password" name="heangpassword" placeholder="Your Password">
+			Email:     <input type="Email" name="hang mail">
+			DOB:       <input type="date" name="dob">
+			Choose your files; <input type="file" name="Myfiles">
+			Your favorite color:   <input type="color" name="color">
+			<b>Choose your nation:</b>
+
+			<input type="radio" name="country" value="cam">Cambodia
+			<input type="radio" name="country" value="US">United State of America
+			<input type="radio" name="country" value="UK">United Kingdom
+
+			<b>Choose your province</b>
+			<select name="province">
+				<option value="SMP">Siem Reap</option>
+				<option value="BTB">Battambang</option>
+				<option value="PP">Phnom Penh</option>
+  </fieldset>
+			</select>
+
+			           
+			                                             <input type="submit" value="Login"></pre>
+			                                           
+</body>
+
+			                                            
+</html>
